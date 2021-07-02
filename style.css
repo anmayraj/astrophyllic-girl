@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+/* font-family: 'Akaya Kanadaka', cursive; */
+
+#container{
+    width: 100vw;
+    min-height: 100vh;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    z-index: 999;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+header{
+    position:relative;
+    z-index: 999;
+}
+#main{
+     position:relative;
+    z-index: 999;
+}
+header h1{
+    font-size: 2.5rem;
+    color: #e91e63 !important;
+}
+header h4{
+    font-size: 1.8rem;
+    color: #e91e63 !important;
+}
+#main input{
+    height: 50px;
+    font-size: 175% !important;
+    background-color: #ffffffcb !important;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    color: #e91e63 !important;
+}
+#main label{
+    color:#ffca28;
+    font-size: 200%;
+    
+}
+#main input:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px !important;
+}
+#main button{
+    background-color: #e91e63 !important;
+    color:yellow !important;
+    border: none  !important;
+    outline: none !important;
+    height:50px;
+    width: 150px;
+    font-size: 150% !important;
+}
+#main button:focus{
+    box-shadow:none !important;
+}
+#main button:hover{
+    background-color: #ffca28 !important;
+    color:#e91e63 !important;
+    
+    font-size: 150% !important;
+}
+#astro{
+    position: fixed;
+    bottom: 0;
+    right: -100px;
+    z-index: -1;
+}
+footer{
+    z-index: 333;
+    position: absolute;
+    bottom: 15px;
+    width: 100% !important;
+    font-size: 150%;
+    color:#e91e63 !important;
+}
+@media screen and (min-width:600px){
+    header h1{
+        font-size: 3.5rem;
+    }
+    header h4{
+        font-size: 2.2rem;
+    }
+}

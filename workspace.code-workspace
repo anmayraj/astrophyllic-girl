@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cci"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "anmay"
+	}
+}
